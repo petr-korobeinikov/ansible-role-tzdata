@@ -1,0 +1,8 @@
+---
+- name: update tzdata
+  template: src=timezone.j2 dest=/etc/timezone owner=root group=root mode=0644
+  register: timezone
+
+- name: reconfigure tzdata
+  shell: dpkg-reconfigure -f noninteractive tzdata
+  when: timezone.changed

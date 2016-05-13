@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Petr Korobeinikov
+  description: Timezone configuration.
+  issue_tracker_url: https://github.com/pkorobeinikov/ansible-role-tzdata
+  github_branch: master
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+
+  galaxy_tags:
+    - tzdata
+    - timezone
+    - time
+
+dependencies: []
