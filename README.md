@@ -27,7 +27,7 @@ Example Playbook
     - hosts: localhost
       become: true
       roles:
-        - role: ansible-role-tzdata
+        - role: pkorobeinikov.tzdata
           tzdata_timezone: America/Cancun
 
 
