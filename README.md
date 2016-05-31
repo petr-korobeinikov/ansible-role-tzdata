@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/pkorobeinikov/ansible-role-tzdata.svg?branch=master)](https://travis-ci.org/pkorobeinikov/ansible-role-tzdata)
 
-ansible-role-tzdata
-===================
+pkorobeinikov.tzdata
+====================
 
 Timezone configuration.
 
@@ -13,7 +13,7 @@ None.
 Role Variables
 --------------
 
-* `tzdata_timezone` is a valid timezone name
+* `tzdata_timezone` is a valid timezone name.
 
 Dependencies
 ------------
